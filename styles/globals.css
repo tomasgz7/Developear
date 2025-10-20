@@ -3,41 +3,174 @@
 @tailwind utilities;
 
 :root{
-  --background: linear-gradient(135deg, #091221 0%,  #042a7a 100%);
-  --background-alt:#661111;
-  --background-deep:#163832;
-  --border:#235347;
-  --accent:#0585E6;
-  --foreground:#A0E5D9;
-  --divider:rgba(243, 4, 4, 0.25);
-  --shadow:rgba(114, 33, 33, 0.4);
+  --background: #f8f8fb;        /* Fondo principal profesional */
+  --background-alt: #f4f5f7;    /* Fondo alternativo cálido */
+  --background-deep: #e9e6ff;   /* Violeta muy sutil para gradientes */
+  --border: #e2e3e8;           /* Gris complementario para bordes */
+  --primary: #5b3a9e;          /* Violeta corporativo principal */
+  --accent: #7c5fd3;           /* Violeta claro para hover */
+  --secondary: #2a2a72;        /* Azul violeta oscuro para acentos */
+  --foreground: #1a1a1a;       /* Texto oscuro elegante */
+  --muted: #6b7280;           /* Texto muted profesional */
+  --success: #00b894;         /* Verde azulado profesional */
+  --warning: #f59e0b;         /* Naranja profesional */
+  --danger: #e74c3c;          /* Rojo coral elegante */
+  --shadow: rgba(91, 58, 158, 0.08);  /* Sombra violeta sutil */
+  --shadow-light: rgba(26, 26, 26, 0.05);  /* Sombra negra sutil */
 }
 
-html, body {
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
   background: var(--background);
   color: var(--foreground);
-  scroll-behavior:smooth;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Brillos radiales estilo Toji */
+/* Gradiente sutil estilo Developear profesional */
 .toji-bg {
   background:
-    radial-gradient(circle at 30% 70%, rgba(2,54,165,0.20), transparent 70%),
-    radial-gradient(circle at 70% 30%, rgba(254,3,105,0.15), transparent 70%);
+    linear-gradient(135deg, #f8f8fb 0%, #e9e6ff 100%);
 }
 
 .section {
-  @apply max-w-content mx-auto px-6 py-24 flex flex-col gap-6;
+  @apply max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-20 flex flex-col gap-12;
 }
 .section-title {
-  @apply text-xl md:text-2xl text-accent font-bold uppercase tracking-widest;
+  @apply text-3xl md:text-4xl lg:text-5xl text-primary font-semibold leading-tight;
 }
 .badge {
-  @apply text-accent font-mono text-sm;
+  @apply text-primary font-medium text-sm uppercase tracking-wide;
 }
 .card {
-  @apply rounded-2xl border border-white/5 p-6 hover:shadow-glow transition;
+  @apply rounded-xl border border-gray-100 p-6 lg:p-8 hover:shadow-lg transition-all duration-300 bg-white;
 }
 .link {
-  @apply text-accent underline-offset-4 hover:underline;
+  @apply text-primary hover:text-accent transition-colors duration-200 font-medium;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-accent text-white font-semibold py-3 px-6 lg:py-4 lg:px-8 rounded-xl transition-all duration-300 hover:shadow-lg font-medium text-sm lg:text-base;
+}
+
+.btn-secondary {
+  @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold py-3 px-6 lg:py-4 lg:px-8 rounded-xl transition-all duration-300 font-medium text-sm lg:text-base;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+}
+
+/* Estilos profesionales minimalistas */
+.corporate-hero {
+  @apply min-h-screen flex items-center justify-center;
+  background: linear-gradient(135deg, #f8f8fb 0%, #e9e6ff 100%);
+}
+
+.corporate-section {
+  @apply py-16 lg:py-20 bg-white;
+}
+
+.trust-badge {
+  @apply inline-flex items-center gap-2 px-4 py-2 bg-primary/5 text-primary rounded-full text-sm font-medium;
+}
+
+.metric-card {
+  @apply text-center p-6 lg:p-8 bg-white rounded-xl border border-gray-100 hover:shadow-lg transition-all duration-300;
+}
+
+.metric-number {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-2;
+}
+
+.metric-label {
+  @apply text-gray-600 font-medium text-sm lg:text-base;
+}
+
+/* Logo con halo sutil */
+.logo-halo {
+  filter: drop-shadow(0 0 8px rgba(91, 58, 158, 0.15));
+}
+
+/* Sombras profesionales sutiles */
+.shadow-professional {
+  box-shadow: 0 4px 16px rgba(91, 58, 158, 0.08);
+}
+
+.shadow-professional-lg {
+  box-shadow: 0 8px 32px rgba(91, 58, 158, 0.12);
+}
+
+/* Gradientes profesionales */
+.gradient-professional {
+  background: linear-gradient(135deg, #5b3a9e 0%, #7c5fd3 100%);
+}
+
+.gradient-professional-subtle {
+  background: linear-gradient(135deg, #f8f8fb 0%, #e9e6ff 100%);
+}
+
+/* Mejor tipografía profesional */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Responsive mejorado */
+@media (max-width: 768px) {
+  .section {
+    @apply px-4 py-12 gap-8;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    @apply w-full text-center py-4 px-6;
+  }
+}
+
+/* Estados de foco para accesibilidad */
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+/* Modo alto contraste */
+@media (prefers-contrast: high) {
+  :root {
+    --foreground: #000000;
+    --muted: #333333;
+    --primary: #4c1d95;
+    --accent: #6d28d9;
+  }
+}
+
+/* Movimiento reducido para accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,18 +1,25 @@
 ---
 import '../../styles/globals.css';
-const { title = 'Tomas Guzman – Portfolio' } = Astro.props;
+const { title = 'Developear | Desarrollo de Software y Estrategia Digital' } = Astro.props;
 ---
-<html lang="en" class="toji-bg">
+<html lang="es" class="toji-bg">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
-    <link rel="icon" type="image/png" href="/favicon.png?v=1" />
-    <meta name="description" content="Portafolio de Tomas Guzman, desarrollador frontend especializado en React, TypeScript y TailwindCSS. Diseño interfaces modernas, escalables y de alto rendimiento." />
-    <meta name="keywords" content="Frontend, React, TypeScript, TailwindCSS, Portfolio, Tomas Guzman, Developer, JavaScript, Spring Boot, Argentina" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon-logo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-logo.png" />
+    <link rel="apple-touch-icon" href="/favicon-logo.png" />
+    <meta name="description" content="Creamos software que conecta procesos, impulsa equipos y acelera la transformación digital. Consultoría, desarrollo y marketing tecnológico para empresas." />
+    <meta name="keywords" content="desarrollo de software, consultoría tecnológica, sistemas empresariales, marketing digital, automatización, Buenos Aires" />
+    <meta name="author" content="Developear" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content="Creamos software que conecta procesos, impulsa equipos y acelera la transformación digital." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
-  <body class="font-sans">
+  <body class="font-sans antialiased">
     <slot />
   </body>
 </html>
