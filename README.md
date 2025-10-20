@@ -1,99 +1,76 @@
-#  Portafolio — Tomas Guzman
+# 💼 Developear — Tecnología que impulsa empresas
 
-> Sitio personal desarrollado con **Astro**, **TypeScript** y **TailwindCSS**.  
-> Presenta mi perfil técnico, proyectos y experiencia en un formato limpio, rápido y accesible.
+> Empresa de desarrollo de software enfocada en crear soluciones **seguras, escalables y de alto rendimiento** que ayudan a organizaciones a crecer y adaptarse al futuro digital.
 
-🔗 **Versión en línea:** [https://tomasguzmandev.netlify.app](https://tomasguzmandev.netlify.app)
-
----
-
-## 🧭 Propósito del proyecto
-
-Este portafolio no es una plantilla ni un experimento visual.  
-Es un proyecto armado desde cero para representar cómo pienso y trabajo:  
-**claridad, estructura y decisiones técnicas con fundamento.**
-
-Cada sección fue escrita, diseñada y desarrollada con un enfoque en:
-- **Rendimiento real** (Astro + optimización de carga).  
-- **Escalabilidad visual** (Tailwind + sistema de diseño propio).  
-- **Coherencia técnica** entre frontend, arquitectura y contenido.  
-
-No busco “impresionar” con efectos; busco mostrar **criterio**.
+🔗 **Sitio web:** [https://developear.netlify.app](https://developear.netlify.app)  
+📧 **Contacto:** contacto.developear@gmail.com  
+📍 Buenos Aires, Argentina  
 
 ---
 
-## ⚙️ Stack técnico
+## 🧭 Misión
+Construir tecnología que conecte procesos, optimice la operación y potencie el crecimiento empresarial, combinando **ingeniería, diseño y estrategia**.
 
-| Categoría | Tecnologías |
+---
+
+## ⚙️ Servicios
+
+| Servicio | Descripción |
+|-----------|--------------|
+| 💻 **Desarrollo de Software Empresarial** | Aplicaciones web y sistemas internos diseñados para escalar con tu negocio. |
+| ☁️ **Soluciones Cloud & Migración** | Modernización de infraestructura con seguridad y rendimiento garantizados. |
+| 🧠 **Consultoría Tecnológica** | Evaluación técnica, métricas y hoja de ruta para la transformación digital. |
+| 🔧 **Soporte Técnico Premium** | Asistencia prioritaria, monitoreo preventivo y disponibilidad continua. |
+
+---
+
+## 🧩 Stack Tecnológico
+
+| Área | Tecnologías |
+|------|--------------|
+| **Frontend** | React · Next.js · TypeScript · TailwindCSS |
+| **Backend** | Java · Spring Boot · Node.js |
+| **Infraestructura** | AWS · Docker · CI/CD |
+| **Bases de Datos** | PostgreSQL · MySQL |
+
+---
+
+## 💡 Filosofía
+
+- 🔹 **Estrategia antes que código:** entendemos tu negocio antes de desarrollar.  
+- 🔹 **Claridad y transparencia:** comunicación constante y decisiones con sentido.  
+- 🔹 **Innovación responsable:** tecnología con impacto real, no moda pasajera.  
+
+---
+
+## 📈 Casos de Éxito
+
+- 🛍 **Retail:** plataforma escalable (+300% ventas, 99.9% uptime).  
+- 🏥 **Salud:** sistema clínico unificado (−40% errores administrativos).  
+- ☁️ **Migración Cloud:** reducción del 30% en costos operativos.  
+
+---
+
+## 👥 Nuestro Enfoque
+En Developear creemos que la excelencia no depende del tamaño del equipo, sino de la precisión y calidad en la ejecución.  
+Cada proyecto es una **alianza estratégica**, no una simple entrega.
+
+---
+
+## 🧠 Stack del Proyecto Web
+
+| Categoría | Herramientas |
 |------------|--------------|
-| **Framework** | Astro |
+| **Framework** | Next.js |
 | **Lenguaje** | TypeScript |
-| **UI** | TailwindCSS · HTML5 · CSS3 |
-| **Animaciones** | Framer Motion (transiciones suaves) |
-| **Deploy** | Netlify |
-| **Gestión / Diseño** | VS Code · GitHub · Figma |
-
-El código se mantiene modular, sin dependencias innecesarias, con foco en legibilidad y mantenibilidad.
+| **Estilos** | TailwindCSS 4 |
+| **Animaciones** | Framer Motion |
+| **Hosting** | Netlify |
 
 ---
 
-## 🧩 Estructura general
+## 🚀 Despliegue
 
-El sitio está dividido en secciones que representan mi recorrido profesional de forma directa:
-
-- **Hero:** presentación y enfoque actual.  
-- **Sobre mí:** cómo entiendo el desarrollo y mi forma de trabajar.  
-- **Stack:** tecnologías principales y herramientas reales de trabajo.  
-- **Formación:** base académica y técnica.  
-- **Proyectos:** selección curada de trabajos con impacto.  
-- **Contacto:** accesos directos y forma de comunicación.  
-- **Footer / Nav:** navegación secuencial minimalista con estilo propio.
-
----
-
-## 🧠 Concepto detrás del diseño
-
-El diseño se apoya en una idea: **menos ruido, más intención**.  
-Cada color, sombra y espaciado tiene un propósito funcional.  
-La paleta oscura con acentos fríos refleja un perfil técnico, sobrio y moderno.  
-
-No hay frameworks innecesarios ni dependencias que no aporten valor:  
-todo está hecho para durar y para poder evolucionar con el tiempo.
-
----
-
-## 🚀 Desarrollo y enfoque técnico
-
-- Proyecto **100% modular** con componentes reutilizables (`.astro`).  
-- **SEO** configurado manualmente con metadatos por página.  
-- **Performance** medida con Lighthouse (puntajes 95+).  
-- Integración **CI/CD** en Netlify.  
-- **Responsividad total**, mobile-first, sin librerías externas.  
-
----
-
-## 📂 Código y mantenimiento
-
-El código está documentado y pensado para que cualquier desarrollador pueda entenderlo sin explicaciones externas.  
-No hay nada generado por IA ni copiado de plantillas.  
-Cada sección fue escrita, revisada y ajustada a mano, línea por línea.
-
----
-
-## 📬 Contacto
-
-- **Correo:** [tomasgz.dev@gmail.com](mailto:tomasgz.dev@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/tomasgz7](https://linkedin.com/in/tomasgz7)  
-- **GitHub:** [github.com/tomasgz7](https://github.com/tomasgz7)
-
----
-
-## 🔎 En pocas palabras
-
-Este proyecto resume mi forma de trabajar:  
-> código claro, decisiones con sentido y diseño que acompaña la ingeniería.  
-
----
-
-**© 2025 — Tomas Guzman**  
-Desarrollado íntegramente con **Astro**, **TypeScript** y **TailwindCSS**.
+1. Cloná el repositorio  
+   ```bash
+   git clone https://github.com/tomasgz7/developear.git
